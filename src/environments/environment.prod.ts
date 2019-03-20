@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  BASE_URL: 'https://synergy.vision/marketsdata-admin/',
+  BASE_URL: 'https://manuespinoza.github.io/prueba-syner/',
   firebase: {
     apiKey: 'AIzaSyCV6OUPuTWfTsOEf4aqpmV30swelOmelD0',
     authDomain: 'marketsdata-vision.firebaseapp.com',
