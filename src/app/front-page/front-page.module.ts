@@ -5,9 +5,6 @@ import { PreloadAllModules, RouterModule } from '@angular/router';
 import { FrontPageComponent } from './front-page.component';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 
-import { APP_BASE_HREF } from '@angular/common';
-import { environment } from '../../environments/environment';
-
 import { rootRoutes } from './front-page.routes';
 
 import { CoreModule } from '../core/core.module';
@@ -28,10 +25,6 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   bootstrap: [FrontPageComponent],
   providers: [
-    {
-      provide: APP_BASE_HREF,
-      useValue: `${environment.BASE_URL}`
-    }
   ]
 })
 export class FrontPageModule { }
